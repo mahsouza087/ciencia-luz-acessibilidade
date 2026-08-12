@@ -1,0 +1,112 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fonte sem serifa para boa acessibilidade */
+    background-color: #fdf0f5; /* Fundo rosa bem claro para suavizar a leitura */
+    color: #222222; /* Texto escuro para alto contraste */
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #d81b60; /* Rosa escuro/vibrante para bom contraste com texto branco */
+    color: #ffffff; /* Texto branco */
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 5px solid #880e4f;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.aluno-info {
+    font-size: 1.1rem;
+    background-color: #880e4f;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+/* Cartões de Conteúdo */
+.card {
+    background-color: #ffffff; /* Fundo branco para os cards */
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 6px solid #d81b60; /* Detalhe em rosa */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #880e4f; /* Tom de rosa bem escuro para manter a leitura clara */
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+/* Seção da Imagem */
+.img-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #d81b60;
+}
+
+/* Glossário */
+.glossario ul {
+    list-style: none;
+}
+
+.glossario li {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f8bbd0;
+}
+
+.glossario li:last-child {
+    border-bottom: none;
+}
+
+.glossario a {
+    color: #ad1457;
+    font-weight: bold;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.glossario a:hover {
+    color: #880e4f;
+}
+
+/* Rodapé */
+footer {
+    background-color: #880e4f;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
